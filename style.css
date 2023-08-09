@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /*para o menu não ficar em cima do título (não é a forma ideal de resolver isso) */
+}
+body { 
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: rgb(0, 37, 224);
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid white;
+}
+
+
+.header__logo {
+  border-color: white;
+  color: white;
+  margin-left: 16px;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 16px;
+  border: 2px solid white;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  font-size: 16px;
+  margin-right: 80px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.header__nav a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  color:rgb(0, 37, 224)
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: rgb(0, 37, 224);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 5px;
+}
+
+h1 p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  gap: 50px;
+  margin: 60px auto 30px;
+  width: 90%; 
+  max-width: 960px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#whatisit {
+  background-color: rgb(0, 37, 224);
+  width: 100%;
+  color: white;
+}
+
+.whatisit__video iframe {
+  width: 100%;
+  height: 350px;
+  border: 1px solid white;
+}
+
+.whatisit__video {
+  flex: 2;
+}
+
+.whatisit__text {
+  flex: 1;
+}
+
+.achievements__text {
+  color:rgb(0, 37, 224);
+}
+
+.achievements__img img{
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 2;
+}
+
+#challenges {
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 37, 224);
+  color: white;
+}
+
+.challenges__img {
+  display: flex;
+  justify-content: flex-end;
+  }
+
+
+.challenges__img img {
+  max-width: 100%;
+  width: 3000px;
+  height: auto;
+  flex-shrink: 2;
+}
+
+#contribute {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 960px;
+  flex-wrap: wrap;
+  color:rgb(0, 37, 224);
+  margin-top: 0;
+}
+
+.contribute__title {
+  flex-grow: 3;
+  max-width: 960px;
+  margin: -10px;
+}
+
+.contribute__list {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contribute__list--items {
+  display: flex;
+  list-style-type: none;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 5px;
+  margin-top: 0;
+  flex-wrap: wrap;
+  
+}
+
+.contribute__list--items p {
+  font-weight: 700;
+
+}
+
+.contribute__list--items li {
+  width: 200px;
+  max-width: 90%;
+  flex-grow: 1;
+  box-shadow: 2px 2px 4px rgb(0, 37, 224, 0.5);
+  padding: 16px;
+  align-items: center;
+}
+
+#who {
+  color: white;
+  background-color:rgb(0, 37, 224);
+}
+
+.who__img img {
+  max-width: 100%;
+  width: 3300px;
+  height: auto;
+  gap: 16px;
+
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  border-top: 2px solid rgb(0, 37, 224);
+}
