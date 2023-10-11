@@ -203,3 +203,7 @@ footer {
   text-align: center;
   border-top: 2px solid rgb(0, 37, 224);
 }
+
+@media(min-width: 600px){
+  
+}
